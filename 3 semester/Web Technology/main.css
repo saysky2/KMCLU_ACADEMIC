@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    background-color: rgb(100, 128, 0);
+    color:black;
+    font-family: "Comic Sans MS";
+    }
+p {
+    color: rgb(255, 0, 0);
+    }

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Automatic Page Reload</title>
+</head>
+<body onload="reloadPage()">
+  <script type="text/javascript">
+    function reloadPage() {
+      setTimeout(function() {
+        window.location.reload();
+      }, 5000);
+    }
+  </script>
+
+  <h1>Automatic Page Reload</h1>
+  <p>This page will reload automatically every 5 seconds.</p>
+</body>
+</html>
