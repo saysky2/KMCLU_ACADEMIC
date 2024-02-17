@@ -34,7 +34,7 @@ INSERT INTO KMCLU_BTECH_STUDENTS VALUES
 (28, "Nusrat", "Ali", "CSE with AI&ML", "abc@gmail.com"), 
 (51, "Aman", "Raidas", "CSE with AI&ML", "pqs@gmail.com");
 
--- TABLE name changed to 'KMCLU_BTECH_STUDENTS' because of line no 25,26
+-- TABLE name changed to 'KMCLU_BTECH_STUDENTS' because of line no 27,28s
 
 -- UPDATE : it helps in updating name of the table variable in the tables 
 
