@@ -17,12 +17,12 @@ CREATE DATABASE IF NOT EXISTS DDL_DML;
     Department VARCHAR(50)
 );
 
--- ALTER : This helps in 
+-- ALTER : This helps in adding new data in a table 
 
 ALTER TABLE KMCLU_BTECH
 ADD Email VARCHAR(100);
 
--- RENAME : 
+-- RENAME : it helps in renaming existing tables or databases
 
 ALTER TABLE KMCLU_BTECH
 RENAME TO KMCLU_BTECH_STUDENTS;
@@ -36,19 +36,20 @@ INSERT INTO KMCLU_BTECH_STUDENTS VALUES
 
 -- TABLE name changed to 'KMCLU_BTECH_STUDENTS' because of line no 25,26
 
--- UPDATE : 
+-- UPDATE : it helps in updating name of the table variable in the tables 
 
 UPDATE KMCLU_BTECH_STUDENTS
 SET Department = 'BTECH CSE with AI&ML'
 WHERE RollNO = 8;
 
--- DELETE : 
+-- DELETE : this helps in deleting data in the table 
 
 DELETE FROM KMCLU_BTECH_STUDENTS
 WHERE RollNo = 51;
 
--- DDL DROP Command 
-
 SELECT * FROM KMCLU_BTECH_STUDENTS; -- Shows all the data stored in Table 
+
+
+-- DDL DROP Command : this helps in deleting the entire database
 
 DROP DATABASE DDL_DML;
