@@ -42,8 +42,7 @@ UPDATE KMCLU_BTECH_STUDENTS
 SET Department = 'BTECH CSE with AI&ML'
 WHERE RollNO = 8;
 
--- DELETE : this helps in deleting data in the table 
-
+-- DELETE : this helps in deleting data in the table (Truncate)
 DELETE FROM KMCLU_BTECH_STUDENTS
 WHERE RollNo = 51;
 
