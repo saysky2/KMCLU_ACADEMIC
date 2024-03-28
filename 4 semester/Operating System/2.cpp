@@ -19,7 +19,7 @@ printf("\nBurst Time is: \t"); // Accept the Burst time
 scanf("%d", &bt[i]);
 temp[i] = bt[i]; // store the burst time in temp array
 }
-// Accept the Time qunat
+// Accept the Time qunat (input time quantum )
 printf("Enter the Time Quantum for the Process: \t");
 scanf("%d", &quant);
 // Display the process No, burst time, Turn Around Time and the waiting time
