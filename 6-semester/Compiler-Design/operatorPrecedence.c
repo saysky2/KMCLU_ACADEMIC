@@ -3,7 +3,7 @@
 #include<string.h> 
 void f()
 {
-printf("Not Operator Grammar:"); 
+printf("\nNot Operator Grammar:\n"); 
 exit(0 );
 }
 void main()
@@ -32,5 +32,5 @@ flag = 0; f();
 c = grm[i][++ j];
 }
 }
-if (flag == 1) printf("Operator Grammar");
+if (flag == 1) printf("\nOperator Grammar\n");
 }
