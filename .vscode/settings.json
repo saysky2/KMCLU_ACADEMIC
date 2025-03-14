@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "huffmanEncoding.C": "cpp"
+        "huffmanEncoding.C": "cpp",
+        "random": "c"
     }
 }
